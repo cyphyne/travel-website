@@ -4,28 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visit Taniti</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/landscape-icon.svg" type="image/svg+xml">
 </head>
 <body>
     <!-- Navigation Menu -->
-    <nav aria-label="Main navigation">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#accommodations">Accommodations</a></li>
-            <li><a href="#attractions">Attractions</a></li>
-            <li><a href="#transportation">Transportation</a></li>
-            <li><a href="#booking">Booking</a></li>
-        </ul>
-    </nav>
-    <!-- Hero Section -->
-    <header>
-        <h1>Escape to Taniti</h1>
-        <p>Your adventure starts here</p>
-    </header>
+    <div class="bg-img">
+        <nav aria-label="Main navigation" class="nav-bar" id="navBar">
+            <div class="nav-mobile">
+                <a href="index.html" class="logo-link">
+                    <img src="images/landscape-icon.svg" alt="Taniti Logo" class="logo" />
+                </a>
+                <h1 class="nav-title">Taniti</h1>
+                <button class="menu-toggle" aria-label="Toggle navigation menu" id="menuBtn">
+                    <img src="images/menu-icon.svg" alt="Menu Icon" class="menu-icon" />
+                </button>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#accommodations">Accommodations</a></li>
+                    <li><a href="#attractions">Attractions</a></li>
+                    <li><a href="#transportation">Transportation</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <a href="#booking" class="nav-btn">Book Now</a>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <header>
+            <div class="hero-header">
+                <h1>Escape to Taniti</h1>
+                <p>Your adventure starts here</p>
+            </div>
+        </header>
+    </div>
     <!-- Main Content Section-->
-     <main>
+    <main>
 
-     </main>
+    </main>
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2025 Taniti. All rights reserved.</p>
@@ -35,5 +52,7 @@
             <a href="https://www.twitter.com/VisitTaniti" target="_blank">Twitter</a>
         </p>
     </footer>
+    <!-- JavaScript -->
+    <script src="main.js"></script>
 </body>
 </html>
