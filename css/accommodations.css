@@ -1,0 +1,47 @@
+/* || Header Section || */
+.bg-img {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0.216)),
+        url('../images/loft.jpg') fixed no-repeat center center/cover;
+}
+
+.hero-header p {
+    color: rgba(251, 255, 227, 0.922);
+}
+
+/* || Card Section || */
+.card-grid {
+    max-width: 900px;
+}
+
+.notice {
+    margin-top: 1rem;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.card-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    font-weight: 200;
+    font-size: 0.9rem;
+    background-color: rgba(0, 0, 0, 0.495);
+    color: white;
+    padding: .5rem 1.5rem;
+    text-align: center;
+    border-radius: 25px;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
+
+/* ||| Media Queries ||| */
+@media (max-width: 768px) {  
+    .hero-header {
+        padding: 2rem;
+        text-align: center;
+    }
+}
+
