@@ -1,0 +1,111 @@
+/* || Header Section || */
+.bg-img {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
+        url('../images/beach-02.jpg') fixed no-repeat center center/cover;
+}
+
+.hero-header p {
+    color: rgba(230, 241, 210, 0.894);
+}
+
+/* || Tile Section || */
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.walking-info {
+    padding-bottom: 3rem;
+}
+
+.walking-info p {
+    font-size: 1.1rem;
+    color:#345546;
+}
+
+.section-header h1 {
+    background-image: linear-gradient(rgb(154, 181, 141), rgb(131, 160, 132));
+    color: transparent;
+    background-clip: text;
+}
+
+.tile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.tile {
+    flex: 1 1 45%;
+    background: #2a9b92;
+    background: 
+        linear-gradient(33deg,rgba(19, 97, 93, 0.167) 0%,
+         rgba(79, 161, 113, 0.125) 50%, 
+         rgba(243, 235, 171, 0.086) 100%);
+    border-radius: 15px;
+    padding: 2.5rem;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 2px 10px rgba(181, 197, 194, 0.417);
+}
+
+.tile h1 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color:#3e6c63
+}
+
+
+.tile p {
+    color: #668778;
+    padding-bottom: .5rem;
+}
+
+.tile span {
+    color: #345546;
+}
+
+.tile.text-left p{
+    text-align: start;
+}
+
+.tile.padded-text p{
+    padding: 2rem 0;
+}
+
+.notice {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color:#a0a0a0;
+    font-size: .9rem;
+    padding: 1.5rem 0;
+}
+
+/* || Footer Section || */
+footer { 
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
+    url('../images/beach-03.jpg') no-repeat center center/cover;
+}
+
+/* ||| Media Queries ||| */
+@media (max-width: 768px) { 
+    .tile-container {
+        flex-direction: column;
+    }
+
+    .notice {
+        width: 100%;
+    }
+}
