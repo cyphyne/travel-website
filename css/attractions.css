@@ -1,0 +1,26 @@
+/* || Header Section || */
+.bg-img {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
+        url('../images/woman-swimming.jpg') fixed no-repeat center center/cover;
+}
+
+.hero-header p {
+    color: rgba(220, 255, 235, 0.922);
+}
+
+/* || Section || */
+.section-header {
+     border-bottom: rgb(222, 226, 220) 1px solid;
+     padding-bottom: 1rem;
+}
+
+.card-grid {
+    max-width: 900px;
+}
+
+footer {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
+        url('../images/reef.jpg') no-repeat center center/cover;    
+}

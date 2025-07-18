@@ -112,6 +112,13 @@
     margin-right: 0.5rem;
 }
 
+/* || Footer Section || */
+footer { 
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
+    url('../images/mountains.jpg') no-repeat center center/cover;
+}
+
 /* ||| Media Queries ||| */
 @media (max-width: 768px) {
     .section-header {

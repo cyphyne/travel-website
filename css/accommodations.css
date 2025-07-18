@@ -18,6 +18,7 @@
     margin-top: 1rem;
     color: gray;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .card-button button{
@@ -35,6 +36,13 @@
     &:hover {
         background-color: rgba(0, 0, 0, 0.7);
     }
+}
+
+/* || Footer Section || */
+footer { 
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
+    url('../images/coastline.jpg') no-repeat center center/cover;
 }
 
 /* ||| Media Queries ||| */
