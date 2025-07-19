@@ -2,7 +2,7 @@
 
 This is a prototype website created for a UX Design class project. 
 The site promotes tourism for Taniti, a small fictional island whose economy is increasingly reliant on attracting visitors. 
----
+
 ## Features
 - 6 fully designed HTML pages:
   - Home
@@ -17,7 +17,12 @@ The site promotes tourism for Taniti, a small fictional island whose economy is 
   - Global stylesheet for shared styles
   - Page-specific stylesheets for modularity
 - Mobile-friendly design
+
 ---
 ## Notes
 **This is a class project and not intended for production use. All content, locations, and businesses mentioned are fictional.**
+
 *All website media provided by [Unsplash](https://unsplash.com).*
+
+## Live Preview
+View live site [here](https://cyphyne.github.io/travel-website/)
