@@ -155,6 +155,7 @@ nav li a:hover {
 
 /*  || Card Section || */
 .section {
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
