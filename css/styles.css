@@ -155,7 +155,6 @@ nav li a:hover {
 
 /*  || Card Section || */
 .section {
-    max-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -395,6 +394,16 @@ footer {
 
     .hero-header h1 {
         font-size: 2.5rem;
+    }
+
+    .card-grid {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 100%;
     }
 
     .frosted-glass h1 {

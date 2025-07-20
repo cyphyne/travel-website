@@ -4,13 +4,14 @@ This is a prototype website created for a UX Design class project.
 The site promotes tourism for Taniti, a small fictional island whose economy is increasingly reliant on attracting visitors. 
 
 ## Features
-- 6 fully designed HTML pages:
+- 7 fully designed HTML pages:
   - Home
   - Accommodations
   - Attractions
   - Dining
   - Transportation
   - About / FAQs
+  - Booking
 - Smooth user experience with consistent layout and styling
 - Simple JavaScript for small interactive features (e.g., accordion FAQ, mobile menu toggle)
 - Organized and responsive CSS structure:

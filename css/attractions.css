@@ -9,7 +9,7 @@
     color: rgba(220, 255, 235, 0.922);
 }
 
-/* || Section || */
+/* || Card Section || */
 .section-header {
      border-bottom: rgb(222, 226, 220) 1px solid;
      padding-bottom: 1rem;
@@ -19,8 +19,24 @@
     max-width: 900px;
 }
 
+/* || Footer Section || */
 footer {
     background: 
         linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
         url('../images/reef.jpg') no-repeat center center/cover;    
+}
+
+/* || Media Queries || */
+@media (max-width: 768px) {
+    .card-grid.single-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-grid.single-card .card {
+    margin-top: 2rem;
+    max-width: 90vw;
+    width: 100%;
+    min-height: 300px;
+  }
 }

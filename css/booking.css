@@ -1,0 +1,172 @@
+/* || Header Section || */
+.bg-img {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
+        url('../images/wave.jpg') fixed no-repeat center center/cover;
+}
+
+.hero-header p {
+    color: rgba(227, 255, 233, 0.922);
+}
+
+/* || Booking Section */
+
+.booking-section {
+    background: 
+        linear-gradient(rgba(9, 9, 9, 0.138), rgba(16, 30, 29, 0.33)),
+        url('../images/shark.jpg') center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 6rem 4rem;
+    margin: 6rem 0;
+    border-radius: 15px;
+}
+
+.booking-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.booking-text {
+    color: white;
+}
+
+.booking-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.booking-text p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.booking-form {
+    backdrop-filter: blur(4px);
+    background-color: rgba(35, 53, 45, 0.5);
+    padding: 2.5rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.259);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.booking-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #bcd5ce;
+}
+
+.booking-form input {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+    color: rgba(55, 68, 68, 0.733); 
+}
+
+input:focus {
+    border: 1.5px solid rgba(94, 169, 162, 0.648);
+    outline: none;
+}
+
+::placeholder { 
+    color: rgba(110, 118, 119, 0.485); 
+    font-weight: 100;;
+}
+
+.booking-form button {
+    background-color: rgba(21, 27, 26, 0.62);
+    color: #bec4c2;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    font-weight: 200;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
+    &:hover {
+        background-color: rgba(13, 22, 20, 0.745);
+        color: #dae5e1;
+    }
+}
+
+.booking-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+
+.booking-group div {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-numbers {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.booking-numbers div {
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* || Footer Section || */
+footer { 
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0)),
+    url('../images/beach-03.jpg') no-repeat center center/cover;
+}
+
+/* || Media Queries || */
+@media (max-width: 768px) {
+    .container {
+        padding: 4rem 1rem !important;
+    }
+
+    .booking-section {
+        padding: 4rem 1rem;
+        width: 100%;
+        background: 
+            linear-gradient(rgba(15, 29, 27, 0.441), rgba(16, 30, 29, 0.079)),
+            url('../images/shark.jpg') center center/cover no-repeat;
+    }   
+    
+    .booking-wrapper {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .booking-text h1 {
+        font-size: 2rem;
+    }
+
+    .booking-text p {
+        font-size: 1rem;
+    }
+
+    .booking-form {
+        padding: 2.5rem;
+    }
+
+    .booking-group {
+        flex-direction: column;
+    }
+}
